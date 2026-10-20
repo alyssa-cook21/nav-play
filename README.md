@@ -1,3 +1,20 @@
+# DMD
+An Expo and React Native trip-planning app demonstrating two React Navigation patterns.
+The app opens in bottom-tab mode. Use the Tabs / Drawer switch at the top to compare both
+## Project structure
+
+`index.ts` registers the Expo app entry point.
+`src/navigation/RootNavigator.tsx` hosts the mode switch and shared navigation container.
+`src/navigation/TabNavigator.tsx` defines the bottom-tab navigator.
+`src/navigation/DrawerNavigator.tsx` defines the hamburger drawer navigator.
+`src/screens/AppScreens.tsx` contains screens shared by both navigators.
+
+## Run
+
+```bash
+npm install
+npx expo start
+```
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
